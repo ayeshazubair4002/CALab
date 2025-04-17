@@ -1,0 +1,15 @@
+START:
+    ADD NUM1    
+    ADD NUM2  
+
+    OUT         
+    HALT       
+
+
+NUM1: .data 1 3  
+
+
+NUM2: .data 1 7 
+
+
+

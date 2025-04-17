@@ -1,0 +1,23 @@
+START:
+INP
+STA NUM
+
+
+
+INP
+CMA
+INC
+
+ADD NUM
+
+STA NUM
+
+INP
+CMA
+INC 
+ADD NUM
+
+OUT
+HALT
+
+NUM: .data 1 0

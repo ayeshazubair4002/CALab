@@ -1,0 +1,15 @@
+START:
+INP
+STA NUM
+INP
+
+CMA
+INC
+
+ADD NUM
+STA RESULT
+OUT
+HALT
+
+NUM: .data 1 0
+RESULT:.data 1 0
